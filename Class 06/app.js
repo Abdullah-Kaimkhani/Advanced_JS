@@ -25,6 +25,9 @@
     
 // });
 
+
+// Multiplication Table Task
+
 // let num = +prompt("Enter a number");
 // let num1 = 5;
 
@@ -37,6 +40,9 @@
 //         document.write(`${num1} x ${i} = ${num1 *i} <br>`)
 //     }
 // }
+
+
+// Multiplication Table Task using Promise()
 
 
 // let num = +prompt("Enter a number");
@@ -88,10 +94,17 @@
 
 // Async await
 
-let fetchData = async ()=> {
-    let getData = fetch('https://jsonplaceholder.typicode.com/posts');
-    
-}
+// let fetchData = async ()=> {
+//     try{
+//         let getData = await fetch('https://jsonplaceholder.typicode.com/posts');
+//         let response = await getData.json();
+//         console.log(response);
+//     } catch (error){
+//         console.log(error.message);
+        
+//     }
+// }
+// fetchData()
 
 
 // Practice
